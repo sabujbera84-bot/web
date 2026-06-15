@@ -1,0 +1,366 @@
+/* universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common class */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* navbar */
+.logo {
+    width: 110px;
+    display: block;
+
+}
+
+.logo img {
+    display: block;
+}
+
+.cmn-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #001F51;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid blue;
+    border-radius: 6px;
+}
+
+.cmn-btn:hover {
+    background-color: aquamarine;
+}
+
+.ban-btn {
+    color: white;
+    font-size: 16px;
+    padding: 10px 16px;
+}
+
+.sub-btn {
+    background: transparent;
+    color: black;
+    border: 2px solid red;
+    padding: 8px 16px;
+}
+
+h1,
+.heading-1 {
+    font-size: 60px;
+    font-weight: 100px;
+    line-height: 1.2;
+    margin: 0 0 30px 0;
+    color: #001F51;
+    text-transform: capitalize;
+}
+
+h2,
+.heading-2 {
+    font-size: 60px;
+    font-weight: 10px;
+    line-height: 1.2;
+    margin: 0 0 30px 0;
+    color: #001F51;
+    text-transform: capitalize;
+}
+
+span {
+    color: red;
+    font-style: italic;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 100px;
+    line-height: 1.2;
+    margin: 0 0 35px 0;
+    color: white;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+
+/* navbar */
+.header {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 400px;
+    
+}
+
+.nav-link li {
+    margin: 0 30px 0 0;
+}
+
+.nav-link li a {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #001F51;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#active {
+    font-weight: 500;
+    color: brown;
+}
+
+.cmn-gap {
+    padding: 40px 0;
+}
+
+/* navbar ends */
+
+
+/* banner  */
+.banner {
+    background: url(../Mask\ group.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.banner-child {
+    width: 30%;
+}
+
+/* banner ends */
+
+/* about starts */
+.left figure img {
+    border-radius: 20px;
+
+
+}
+
+.right p {
+    color: black;
+    font-style: normal;
+}
+
+.about-child {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0-10px;
+}
+
+.left,
+.right {
+    width: 50%;
+    padding: 0 10px 0 0;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 30px;
+}
+.abt-btn{
+    background-color: #0a1a33;
+    color: white;
+}
+.abt-btn:hover{ 
+    background:  #0a1a33;
+}
+.about{
+    background-color: white;
+}
+/* about ends */
+
+/* card starts */
+.card p {
+    color: black;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: center;
+    font-weight: 400;
+}
+
+.card h2 {
+
+    text-align: center;
+}
+
+.card-text p {
+    color: black;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 0 0;
+
+}
+
+.card-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 35px 0;
+}
+
+.cmn-card {
+    width: 370px;
+    background-color:white;
+    padding: 15px 15px 20px 15px;
+    border-radius: 10px;
+}
+
+.card {
+    background-color:#F3F3F3;
+}
+
+.card-img img {
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+
+}
+
+.card-lower {
+
+    text-align: center;
+    ;
+}
+
+.card-upper {
+    text-align: center;
+}
+
+.card-btn {
+    background-color: aqua;
+}
+.cmn-card p{
+    font-size: 16px;
+}
+
+/* card ends */
+/* footer */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #e6edf5;
+}
+
+/* Footer */
+.footer {
+    background: #0a1a33;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.footer-container {
+    max-width: 1160px;
+    margin: auto;
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.footer-col h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-col ul {
+    list-style: none;
+    margin: 0 140px 0 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #b0c4de;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+}
+
+/* Newsletter */
+.newsletter p {
+    font-size: 13px;
+    color: #b0c4de;
+    margin-bottom: 15px;
+}
+
+.subscribe-box {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.subscribe-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+}
+
+.subscribe-box button {
+    background: #ffffff;
+    color: #000;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.subscribe-box button:hover {
+    background: #ddd;
+}
+
